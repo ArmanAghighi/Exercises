@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EBNtztpxbfpqnblN+j4JnzbuMx8o3sqV/zwEXXmAoQVeyvv4JsoZRWz0w9iNKi3sbMpXbx5qfabz7uou8yQhSA==",
+  "success": true,
+  "projectFilePath": "D:\\GerdooTemp\\New folder\\JsonParserConsolApp\\JsonParserConsolApp\\JsonParserConsolApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\arman\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
