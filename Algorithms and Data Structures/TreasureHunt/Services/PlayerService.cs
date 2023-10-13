@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TreasureHunt.Services;
+﻿using TreasureHunt.Services;
+
 namespace TreasureHunt
 {
     public class PlayerService : IPlayerService
@@ -37,14 +33,11 @@ namespace TreasureHunt
                     break;
             }
         }
-
         public void MovePlayer(int rowOffset, int colOffset)
         {
             int gridSize = Model.grid.GetLength(0);
-
             int newRow = Model.playerRow + rowOffset;
             int newCol = Model.playerCol + colOffset;
-
             if (newRow >= 0 && newRow < gridSize && newCol >= 0 && newCol < gridSize)
             {
                 Model.playerRow = newRow;
