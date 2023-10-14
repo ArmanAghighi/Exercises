@@ -4,15 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Fib_dynamic
+namespace Factoriel_Dynamic
 {
-    internal class Program
+    internal class Programm
     {
         public static void Main()
         {
-            UIClass.ShowMessage();
-            Logic logic = new Logic();
-            UIClass.ShowResualt(logic);
+
+            UIClass.ShowMessage("Enter Value" , null);
+            LogicClass logic = new LogicClass();
+            UIClass.ShowMessage("Show Resault" , logic);
         }
     }
 }

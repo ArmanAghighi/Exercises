@@ -4,17 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Fib_dynamic
+namespace Factoriel_Dynamic
 {
     internal class UIClass
     {
-        public static void ShowMessage()
+        public static void ShowMessage(string numbereOfMessage , LogicClass logic)
         {
-            Console.WriteLine("Please enter a number to calculate : ");
-        }
-        public static void ShowResualt(Logic logic)
-        {
-            Console.WriteLine("Fib of " + logic.n + " is : " + logic.Fib(logic.n));
+            switch (numbereOfMessage)
+            {
+                case "Enter Value":
+                    Console.WriteLine("Ënter a Value to calculate Factoriel of :");
+                    break;
+                case "Show Resault":
+                    Console.WriteLine("Factoriel of " + logic.number + " is equal to :" + logic.Fact(logic.number));
+                    break;
+                default:
+                    break;
+            }
         }
     }
 }
