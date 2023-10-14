@@ -1,9 +1,9 @@
-﻿
-namespace TreasureHunt
+﻿namespace TreasureHunt
 {
-    internal class Model 
+    class Model 
     {
         public static char[,] grid { get; set; }
+        public static int[,] gridValues { get; set; }
         public static int playerRow { get; set; }
         public static int playerCol { get; set; }
         public static int trapRow { get; set; }

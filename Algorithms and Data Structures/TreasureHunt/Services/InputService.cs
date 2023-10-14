@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TreasureHunt.Services;
+﻿using TreasureHunt.Services;
+
 namespace TreasureHunt
 {
     internal class InputService : IInputService

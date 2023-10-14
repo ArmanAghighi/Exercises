@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TreasureHunt.Services;
+﻿using TreasureHunt.Services;
 namespace TreasureHunt
 {
     internal class UIService : IUIService
@@ -62,7 +57,7 @@ namespace TreasureHunt
                         }
                         else
                         {
-                            Console.Write("|___|");
+                            Console.Write("|_{0}_|", Model.gridValues[i, j]);
                         }
                     }
                     else if (i == Model.treasureRow && j == Model.treasureCol)
@@ -73,12 +68,12 @@ namespace TreasureHunt
                         }
                         else
                         {
-                            Console.Write("|___|");
+                            Console.Write("|_{0}_|", Model.gridValues[i, j]);
                         }
                     }
                     else
                     {
-                        Console.Write("|___|");
+                        Console.Write("|_{0}_|", Model.gridValues[i, j]); 
                     }
                 }
 
